@@ -1,0 +1,48 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+
+* Variables:
+	
+	Las variables, son como cajitas donde se pueden guardar cosas, por ejemplo, numeros, cadenas de texto, o valores de verdad como ser verdadero o falso. Luego a esos valores guardados se los podra volver a utilizar, tomadolos de la cajita variable y los podremos imprimir en la pantalla o combinar con alguna otra cosa para modificar el contenido de la cajita. Estas cajitas, donde se guardan esos elementos se los puede nombrar con una etiqueta, que puede ser una letra en particular o bien ponerles un nombre que las describa, como podria ser cajitadenumeros, asi a cajita de numeros le asignamos algun valor que queremos guardar en ella, así: cajitadenumros=5, enonces sabesmo que dentro de esa cajita variable hay un valor asociado.
+
+
+* Strings
+	
+	a palabra string quiere decir cadena en ingles, y se refiere, en el contexto en el cual estamos hablando, a cadena de caracteres. Para identificar que estamos hablando de una cadena de caracteres eponemos entre comillas, dobles o simples, las lestra numero o simbolos especiales. Por ejempl asi: "soy una cadena", "123", "soy la cadena 2".
+Como pòdras observar, los espacios tambien son parte de la cadena.
+	Las cadenas se pueden unir con otras, restar de otras o bien les podemos agregar o quitar elementos, y a estas las podemos recorrer, caracter a caracter, contar su cantidad o para anlizar la existencia o no de algun elemento en particular.
+	Hay que recordar, todo lo que esta dentro de un par de comillas es una cadena, y puede ser cualquier caracter.
+
+
+* Funciones (argumentos, `return`):
+
+	Las funciones aveces son como las procesadoras de alimentos, reciben algo y devuelven algo distinto a como lo recibio, aveces. Porque podrian recibir alguna cosa y no devolver nada o simplemente no recibir nada y no devolver nada.
+        Entonces ¿Cómo funciona una funcion? Bueno, en primer lugar una funcion tiene un nombre, por ejemplo Par, y a travez de codigo de computadora, en este caso javscript, se le agrega el codigo suficiente como para que haga algo con los valores que va a recibir, en este caso detectar si un numero es par.
+        ¿Como recibira los valores? Bueno, a continuacion del nombre de la funcion se abre y cierra un parentesis, y entre ellos podran ir tantas variables como querramos, entonces nuestra funcion Par quedaria de la siguiente forma: Par(var1, var2,...,varN) Luego del cierre del parentesis se abriria una llave y luego de esta se escribiria el código que detecta numeros pares, por ejemplo Par(var1, var2,...,varN){detectar si variableN es par y guardar ese valor de verdad en serepar} y posterior al código detercaro de numeros pares, y antes de que se cierre la llave, se debe devolver un valorusando una palabra reservada del lenguaje javascript que se encarga de esa tareallamada return. Veamos como queda entonces: Par(var1, var2,...,varN){detectar si variableN es par y guardar ese valor de verdad en serepar; return serepar}. Pue es asi como funcionan las funciones hacen algo con las cosas que reciben y lñuego devuelven ese algo procesado o quizas solo devbuelven el estado de algo, como en este caso la paridad de un numero, es decir si es par o impar, true o false.
+	Hay que notar una cosa particular de la palabra reservada return, esta cuando se ejecuta detiene la ejecucion de la funcion y devielve el valor que tiene asociado en ella en ese momento. Otra cosa que hay que poner en manifiesto es que la palabra return dentro de todos los casos posibles debe ser unica dentro de la función.
+	Tambien otra de las caracteristticas de las funciones es dividir el problema en pequeñas porcioes, asi, una funcion realizas una tarea y otra realiza otros tipo de tarea, y entre todo el conjunto de funciones que integra todo el codigo del programa, resolver un problema mayor.
+
+
+* Declaraciones `if`:
+
+	El If es parecido al Sí condicional del español, es decir, sí sucede algo hago o no, hago tal cosa u otra o no. Este Si, me ayuda a tomar desiciones, por ejemplo veamos una de la vida diaria. Sí sale el sol, entonces, salgo a correr, Sí no sale el sol, entonces, no salgo a correr. Como se pordra apreciar, la forma de esta oracion tiene la forma del If en el lengiaje de programacion. If <condicion1>...<condicionN> entonces <sentencias> caso contrario <sentencias>, de manera mas formal if <condicion>{<sentencias>} else {<sentencias>}
+         Los if se pueden anidar de manera que se puedan crear condiciones mas soficticadas.
+
+ 
+* Valores booleanos (`true`, `false`):
+
+	Los valores booleanos, o de verdad, son los que me diran cuando algo es verdad o no. o se ha cumplido o no se ha cumplido. Por ejemplo, si me preguntan si sali a correr y mi respues a es afirmativa cuando en realidad lo hice, entonces el valor de verdad es: true, pero si mi respuesta fuera afirmativa cuando en realidad no realice esa accion de salir a correr, entonces el valor de verdad seria: false.
+	Asi, con estos valores de verdad puedo analizar si un evento determinado ocurrio o no ocurrio, o bien puedo saber si una cosa es igual o diferente a otra. Y en realcion a dos cosas que este comparando podere decir si estas son iguales, o diferentes. Como por ejemplo La letra A es igual a la letra A, lo cual seria verdadero. Tambien podria preguntar si: La letra A es diferente a la letra A. Lo que me da comoresultado un valor falso. Como se ve, el tresultado del valor de verdad true o false, no solo depende de las cosas que este comparando si no tambien de la forma en como se compra, o realiza la pregunta.
+
+
+	
+
+
+	
+             

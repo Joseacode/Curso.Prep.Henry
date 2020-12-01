@@ -42,7 +42,7 @@ function esDiezOCinco(numero) {
     // De lo contrario, devuelve "false"
     // Tu código:
     var valor;
-    if (numero == 10 or numero == 5){
+    if (numero == 10 || numero == 5){
     	valor = true;
     }else{
     	valor = false;
@@ -93,7 +93,7 @@ function fizzBuzz(numero) {
   	valor = valor + 'buzz';
   }
 
-  if (!numero){
+  if (!valor){
   	valor = numero;
   }
 
@@ -106,17 +106,18 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-  var valor;
-  for(int i = numero; i>1; i--){
+  var valor = false;
+  for(var i = numero-1; i>1; i--){
   	if (numero % i !== 0){
   		valor = true;
   	}
   	else{
   		valor = false;
   	}
-  	return valor;
+  	
   }
 
+ return valor;
 
 }
 

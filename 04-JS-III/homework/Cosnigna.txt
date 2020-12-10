@@ -1,0 +1,46 @@
+Arrays:
+
+	Como ya vimos el concepto de variable, ahora podemos ver el concepto de Array o regla.
+	Sabemos que una variable puede contener un datos alacenado en ella misma. Ahora un array puede contener una colección de datos de 	distinto tipo y naturaleza  almacenados y ordenados, de manera contigua.
+	Veamos un par de ejemplos:
+	
+	primero declaremos al array vacio y luego le agregamos un par de elementos:
+	
+	var array = [] //declaramos el array vacio
+
+	Para ir agregandole elementos podemos usar algunos metodos que llevan los array que nos facilitan las tareas, estos son:
+	
+	push: agrega un elemento al final de la matriz, Se incrementanto la longitud del array en 1.
+	
+	ejemplo: 
+
+		array.push('hola');
+
+		console.log(array) --> [´hola']
+	
+	.pop nos servirá para aliminar elementos al final del arreglo
+
+	suponiendo que array tiene mas de un elemento:
+
+	console.log(array) --> ['hola','chau','dia','noche','primavera','verano']
+
+	array.pop() --> 'verano'
+
+	console.log(array) --> ['hola','chau','dia','noche','primavera']
+	
+	array.pop() --> 'primavera'
+	
+	console.log(array) --> ['hola','chau','dia','noche']
+
+	unshift y .shift son respectivamente ifgual que push y pop pero operan al principio del arreglo.
+
+	Otra manera de recorrer un arreglo es a traves de un sub indice. 
+	El primer elmento de un arreglo esta en la posicion cero, mientras que el ultimo estara en la posicion longitud-1 del arreglo.
+
+       	cosnole.log(arra[0]) --> 'hola'
+	cosnole.log(arra[3]) --> 'noche'
+
+
+
+
+

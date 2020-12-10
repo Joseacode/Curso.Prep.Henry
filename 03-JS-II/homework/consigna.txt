@@ -1,0 +1,44 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+* `for`:
+
+	El ciclo For. Esta sentencia dentro de la programación nos da la posibilidad de darle valores iniciales a una variable, luego decir hasta cuando quiero incrementarla o decrementar esa variable, o simplemente hasta cuando la quiero modificar, y luego y finalmente ir modificando la variabble de alguna manera.
+	Como vimos, la descriipcion anterior nos indica que la sentencia for realiza tres procesos, declarar variable, controlar el valor de la variable y modificarla. Ahora bien, nos queeda preguntarnos ¿Y todo esto para que? Veamos como sigue:
+
+	Primero analicemos las partes y la estructura del cilo For:
+	
+	For((declaramos variable i asignadole un valor inicial); ( i será distino o igual a: valor de referencia); (modificacion de variable i)){<setencias>)
+	
+	Declaramos variable i asignadole un valor inicial: Aca es donde decido cual sera el valor inicial de la variable, para el ejemplo var i.
+	
+	i será distino o igual a: valor de referencia: Aca es donde coloco una condicion, que mientras esta me devuelva true el valor de i se ira modificando. 
+	
+	modificacion de variable i: Nientras la condicion del apartado anterior se cumpla I se ira modificando con sumas o restas sucesivas u otra operacion.
+
+	El bloque sentencias: Se ira ejecuando en relacion y hasta que termine la ejecucion el for.
+
+	la forma fomral del for es como sigue:
+
+							for (inicialización; condición; actualización) { 
+   							//sentencias a ejecutar en cada iteración 
+							}
+
+
+	 
+* `&&`, `||`, `!`
+
+	Estos * `&&`, `||`son conectores logicos, y alrededor de ellos colocaremos las proposiciones necesarias que queremos evaluar. El tipo de resulrta tras la evalucion será un true o false. 
+
+El , `!`  es la negación y servira para negar una proposicion, o bien una disjuncion o conjuncion. 
+Las tablas donde podemos aplicar estos operadores son como sigue:
+
+                        a | b | a&&b | a||b		a | !a
+			v | v |  v   |  v		v | f
+			v | f |  f   |  v		f | v
+			f | v |  f   |  v
+			f | f |  f   |  f
+
+Al rededor de esto que es verdaderamente sencillo, existen combinaciones que lo hacen realmente potente. Las ya conocidas son and y or y con las combinaciones junto con la negacion, sacamos el nand, el xor, nor, xnor. Base fundamental de la logica binaria.
